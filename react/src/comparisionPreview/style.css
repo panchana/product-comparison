@@ -1,0 +1,127 @@
+.previewContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: #fff;
+}
+.previewContainerItem {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: solid 1px #e6e6e6;
+    padding: 5px;
+    height: 80px;
+    margin: 10px 5px;
+    transition: all ease .3s;
+    position: relative;
+    overflow: hidden;
+}
+
+.previewContainerItem:hover {
+    box-shadow: 1px 1px 5px rgb(0 0 0 / 20%);
+}
+
+.previewLink {
+    width: 110px;
+}
+.previewImage {
+    width: 110px;
+}
+.previewContainerDescription {
+    width: calc(100% - 110px);
+    padding-right: 30px;
+}
+
+.previewContainerName {
+    font-size: 14px;
+    line-height: 1;
+    margin-bottom: 6px;
+    color: #262626;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
+}
+.previewContainerPrice {
+    color: #bbb;
+    font-size: 12px;
+    line-height: 1;
+}
+
+.previewContainerButton {
+    height: 50px;
+    max-width: 285px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    background: #4d4d4d;
+    border: 0 solid #4d4d4d;
+    color: #fff;
+    font-weight: bold;
+    text-transform: capitalize;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.previewContainerButton:hover {
+    background-color: #262626;
+}
+
+.previewProductList {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.flexRowContent > div {
+    justify-content: center;
+    align-items: center;
+}
+
+.flexRowContent > div:first-child {
+    width: calc(100% - 170px) !important;
+}
+
+.flexRowContent > div:last-child {
+    padding-left: 20px;
+}
+
+.flexRowContent {}
+
+.caretIcon {
+    width: 18px;
+    height: 18px;
+}
+
+.flexRow {
+    width: 100%;
+}
+
+.slide {
+    max-width: calc(100% / 3);
+}
+
+.sliderTrack  {
+    justify-content: flex-start;
+}
+
+.previewRemoveItem {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 750px) {
+    .flexRowContent > div:first-child {
+        width: 100% !important;
+    }
+
+    .flexRowContent > div:last-child {
+        padding-left: 0;
+    }
+}

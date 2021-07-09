@@ -1,0 +1,24 @@
+{
+  "name": "product-comparison",
+  "vendor": "autogermanashop",
+  "version": "0.1.0",
+  "vtex-version": "0.0.0",
+  "builders": {
+    "react": "3.x",
+    "store": "0.x",
+    "messages": "1.x"
+  },
+  "title": "Product Comparisonn",
+  "description": "Product Comparisonn",
+  "scripts": {
+    "postreleasy": "vtex publish --verbose"
+  },
+  "dependencies": {
+    "vtex.store": "2.x",
+    "vtex.product-context": "0.x",
+    "vtex.slider-layout": "0.x",
+    "vtex.flex-layout": "0.x",
+    "vtex.store-icons": "0.x"
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

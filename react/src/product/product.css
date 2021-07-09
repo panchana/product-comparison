@@ -1,0 +1,132 @@
+.imageProductPage {
+
+}
+
+.nameProductPage {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    color: #262626;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    -webkit-box-orient: vertical;
+    padding: 0 20px;
+}
+
+.imageProductPriceBook {
+    font-size: 15px;
+    color: #bbb;
+    margin-bottom: 10px;
+    padding: 0 20px;
+}
+
+.imageProductTotalPrice {
+    color: #262626;
+    font-size: 15px;
+    margin-bottom: 10px;
+    padding: 0 20px;
+}
+
+.buttonsLinksPage {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.buttonsLinksPage a:first-child {
+    background: #1c69d4;
+    height: 30px;
+    width: 100%;
+    max-width: 285px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.buttonsLinksPage a:last-child {
+    color: #262626;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.buttonsLinksPage a:first-child:hover {
+    background-color: #0653b6;
+}
+
+.buttonsLinksPage a:last-child:hover {
+    color: #0653b6;
+}
+
+.buttonsLinksPage a:last-child::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-bottom: 2px solid;
+    display: block;
+    border-right: 2px solid;
+    transform: rotate(-45deg);
+    margin-right: 10px;
+}
+
+.titleVariationPage {
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: #262626;
+}
+
+.imageVariationPage {
+    width: 60px;
+}
+
+.titleSpecification {
+    font-size: 25px;
+    color: #262626;
+    text-align: left;
+    
+}
+
+.SpecificationContainer {
+    border-bottom: 2px solid #E6E6E6;
+    margin-bottom: 10px;
+    padding: 0 20px;
+}
+
+.nameSpecification {
+    font-weight: bold;
+    font-size: 15px;
+    color: #262626;
+    text-align: left;
+    padding: 0 20px;
+}
+
+.valueSpecification {
+    font-size: 12px;
+    text-align: left;
+    margin: 10px 0;
+}
+
+.variationContainer {
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.SpecificationContainerTitle {
+    font-size: 25px;
+    color: #262626;
+    white-space: nowrap;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 0 20px;
+}

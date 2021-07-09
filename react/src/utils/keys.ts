@@ -1,0 +1,5 @@
+export const EventKeyPreview = '@PRODUCT-COMPARISION-PREVIEW'
+export const EventKeyPreviewRemove = '@PRODUCT-COMPARISION-PREVIEW-REMOVE'
+export const EventKeyPreviewPage = '@PRODUCT-COMPARISION'
+export const StorageKeyPreview = '@PRODUCT-COMPARISION-PREVIEW'
+export const StorageKeyComparision = '@PRODUCT-COMPARISION'

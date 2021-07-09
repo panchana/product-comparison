@@ -1,0 +1,38 @@
+{
+  "name": "hello-react",
+  "version": "0.1.0",
+  "scripts": {
+    "pretest": "yarn",
+    "test": "vtex-test-tools test",
+    "test:coverage": "vtex-test-tools test --collectCoverage",
+    "sonar-scanner": "npm run test:coverage && node_modules/sonar-scanner/bin/sonar-scanner"
+  },
+  "author": "Juan Carlos Valencia Panchana",
+  "license": "ISC",
+  "dependencies": {
+    "@types/ramda": "^0.27.41",
+    "@types/react-dom": "^17.0.8",
+    "classnames": "^2.2.6",
+    "ramda": "^0.27.1",
+    "react": "^16.8.6",
+    "react-dom": "^17.0.2",
+    "react-intl": "^2.9.0",
+    "rxjs": "^6.6.3"
+  },
+  "devDependencies": {
+    "@types/classnames": "^2.2.8",
+    "@types/jest": "^24.0.13",
+    "@types/react": "^16.8.19",
+    "@types/react-intl": "^2.3.18",
+    "@vtex/test-tools": "^0.3.2",
+    "coveralls": "^3.0.4",
+    "prettier": "^1.18.2",
+    "sonar-scanner": "^3.1.0",
+    "tslint": "^5.20.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "tslint-react-hooks": "^2.2.1",
+    "typescript": "3.9.7"
+  }
+}

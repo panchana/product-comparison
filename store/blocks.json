@@ -1,0 +1,5 @@
+{
+    "store.custom.product-comparision": {
+        "blocks": ["comparision-page"]
+    }
+}

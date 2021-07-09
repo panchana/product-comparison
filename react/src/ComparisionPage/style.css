@@ -1,0 +1,104 @@
+.comparisionPage {
+    grid-template-columns: repeat(6, 1fr);
+    display: grid;
+    transition: all ease .5s;
+}
+
+.comparisionPageCustomSlide {
+    overflow: hidden;
+    width: 100%;
+    transition: all ease .5s;
+}
+
+.comparisionPage .flexRowContent {
+    justify-content: center;
+}
+
+.comparisionPage :global(.vtex-product-summary-2-x-SKUSelectorContainer) {
+    height: 180px;
+}
+
+.comparisionPage :global(.vtex-store-components-3-x-skuSelectorTextContainer) {
+    justify-content: flex-start;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.comparisionPage :global(.vtex-store-components-3-x-skuSelectorSubcontainer) {
+    margin-top: 10px;
+}
+
+.comparisionPage :global(.vtex-store-components-3-x-skuSelectorOptionsList) {
+    margin-left: 0;
+}
+
+.comparisionPage :global(.vtex-store-components-3-x-skuSelectorItem) {
+    margin-left: 5px;
+}
+
+.comparisionOther {
+    width: 400px;
+    max-width: 100%;
+    height: 50px;
+    background: #4D4D4D;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 30px auto;
+    user-select: none;
+}
+
+.comparisionArrowFixRigth,
+.comparisionArrowFixLeft {
+  position: fixed;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  top: 0;
+  user-select: none;
+}
+
+.comparisionArrowFixRigth svg,
+.comparisionArrowFixLeft svg {
+    cursor: pointer;
+}
+
+.comparisionArrowFixRigth {
+    right: 10%;
+}
+.comparisionArrowFixLeft {
+    left: 10%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .comparisionPage > * {
+        max-width: 100vw;
+    }
+    
+    .comparisionOtherContainer {
+        padding: 0 20px;
+    }
+
+    .comparisionPage .buttonsLinksPage a:first-child {
+        max-width: 100% !important;
+        margin-bottom: 6px;
+    }
+
+    .comparisionPage .SpecificationContainerTitle {
+        white-space: normal;
+    }
+
+    .comparisionArrowFixRigth {
+        right: 20px;
+    }
+    .comparisionArrowFixLeft {
+        left: 20px;
+    }
+}
+

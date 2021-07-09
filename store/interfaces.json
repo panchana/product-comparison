@@ -1,0 +1,14 @@
+{
+  "add-to-comparision": {
+    "component": "AddToComparision"
+  },
+  "comparision-preview": {
+    "component": "ComparisionPreview"
+  },
+  "comparision-page": {
+    "component": "ComparisionPage",
+    "composition": "children",
+    "render": "client"
+  },
+  "store.custom.product-comparision": {}
+}
